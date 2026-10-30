@@ -1,0 +1,99 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 450px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+  text-align: center;
+  color: #234b80;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 25px;
+  gap: 10px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background-color: #eaf2ff;
+  color: #234b80;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.tabs button.active {
+  background-color: #3269b1;
+  color: white;
+}
+
+.input-group {
+  margin-bottom: 17px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 7px;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-group input:focus {
+  border-color: #3269b1;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #3269b1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:disabled {
+  background-color: #aabbd1;
+  cursor: not-allowed;
+}
+
+.success {
+  color: green;
+  text-align: center;
+  margin-top: 18px;
+  font-size: 14px;
+}
